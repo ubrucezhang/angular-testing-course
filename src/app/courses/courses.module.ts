@@ -38,6 +38,7 @@ import {CourseResolver} from './services/course.resolver';
     CourseDialogComponent
   ],
   imports: [
+    // make sure the CommonModule only imports once here
     CommonModule,
     MatMenuModule,
     MatButtonModule,
