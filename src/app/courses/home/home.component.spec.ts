@@ -117,8 +117,8 @@ describe('HomeComponent', () => {
 
     // tick(500);
     // flush(): empty task queue before continue
-    flush();
-    tick()
+    // flush();
+    tick(500);
     const cardTitles = el.queryAll(By.css('.mat-tab-body-active .mat-card-title'));
     // first expect the existence
     expect(cardTitles.length).toBeGreaterThan(0, "Could not find card titles");
